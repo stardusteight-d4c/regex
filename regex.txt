@@ -1,0 +1,33 @@
+RegEx (Regular Expressions) 
+
+-- Quantifier
+.		Corresponde a qualquer outro caractere.
+? 		Opcional (zero ou mais vezes).
++ 		Uma ou mais vezes.
+* 		Zero ou mais vezes.
+
+{n} 	Exatamente n vezes.
+{n,} 	No mínimo n vezes.
+{n,m} 	De n até m vezes.
+
+
+-- Classes de char
+[]		Define classe
+[A-Z]	Qualquer letra maiúscula de A a Z.
+[0-9]	Qualquer número de 0 a 9.
+
+\d		Dígito númerico
+\t 		Tab.
+\r 		Carriage return.
+\n 		Newline.
+\f 		Form feed.
+\w 		Caracteres de palavras (a-z, A-Z, 0-9).
+
+-- Ancôras
+\b 		Inicio e limite da string.
+^		Âncora que seleciona o início da string alvo.
+$		Âncora que seleciona o fim do alvo.
+
+-- Grupos
+() 		Define grupo
+?:		Non-capturing group
